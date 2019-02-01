@@ -13,6 +13,6 @@ deploy:
   provider: surge
   skip_cleanup: true
   domain: hangzhou.surge.sh
-  project: build
+  project: ./hangzhou_viagens-web/build/
 on:
   branch: master
