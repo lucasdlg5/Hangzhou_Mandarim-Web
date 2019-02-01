@@ -1,10 +1,10 @@
-before_script: cd .\hangzhou_viagens-web\
+before_script: cd hangzhou_viagens-web
 language: node_js
 node_js:
   - "stable"
 cache:
   directories:
-    - ./hangzhou_viagens-web/node_modules
+    - node_modules
 script:
   - npm test 
   - npm run build
@@ -12,6 +12,6 @@ deploy:
   provider: surge
   skip_cleanup: true
   domain: hangzhou.surge.sh
-  project: ./hangzhou_viagens-web/build
+  project: build
 on:
   branch: master
