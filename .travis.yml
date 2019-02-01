@@ -3,7 +3,7 @@ node_js:
   - "stable"
 cache:
   directories:
-    - node_modules
+    - .\hangzhou_viagens-web\node_modules\
 script:
   - npm test 
   - npm run build
@@ -11,6 +11,6 @@ deploy:
   provider: surge
   skip_cleanup: true
   domain: hangzhou.surge.sh
-  project: ./build/
+  project: .\hangzhou_viagens-web\build\
 on:
   branch: master
