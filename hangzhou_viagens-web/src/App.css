@@ -22,6 +22,110 @@
   color: #61dafb;
 }
 
+/* Personalizado Inicio */
+.mainContainer{
+  width: auto;
+	/* margin: 0 auto; */
+	display: flex;
+  /* border: 1px solid #ccc; */
+  min-height: 600px;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.radius{
+  border-radius: 5px;
+}
+
+.container {
+	/* max-width: 360px; */
+	/* margin: 0 auto; */
+	display: flex;
+  border: 1px solid #ccc;
+  min-width: 720px;
+}
+ 
+.wrap {
+	flex-wrap: wrap;
+}
+
+.column{
+  flex-direction: column;
+  /* width: 850px; */
+}
+
+.porfolioLeft{
+height: 99%;
+width: 262px;
+background-color: aqua;
+/* margin: 5px; */
+flex: 1;
+
+}
+
+.menuHeader{
+  height: 73px;
+  background-color: black;
+  margin-top: 20px !important;
+  margin-bottom: 30px !important;
+  
+}
+
+.content{
+  height: 695px;
+  background-color: green;
+}
+
+.skills{
+  height: 320px;
+  background-color: blue;
+}
+
+.rodape{
+
+  height: 72px;
+  background-color: violet;
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+}
+
+
+.item {
+	/* O flex: 1; é necessário para que cada item se expanda ocupando o tamanho máximo do container. */
+	/* flex: 1; */
+	margin: 15px;
+	/* background: tomato; */
+	/* text-align: center;
+  font-size: 1.5em; */
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 990px) {
+  
+  .mainContainer{
+    width: auto;
+    /* margin: 0 auto; */
+    display: flex;
+    /* border: 1px solid #ccc; */
+    min-height: 600px;
+    margin-top: 15px;
+    margin-left: 120px;
+    margin-right: 120px;
+    flex-direction: column;
+  }
+
+  .porfolioLeft{
+    height: auto;
+    background-color: aqua;
+    width: auto;
+    flex: 1;
+    
+    }
+
+
+}
+/* Personalizado Fim */
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -30,3 +134,5 @@
     transform: rotate(360deg);
   }
 }
+
+
