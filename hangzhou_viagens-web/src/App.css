@@ -25,9 +25,7 @@
 /* Personalizado Inicio */
 .mainContainer{
   width: auto;
-	/* margin: 0 auto; */
 	display: flex;
-  /* border: 1px solid #ccc; */
   min-height: 600px;
   margin-top: 50px;
   margin-left: 100px;
@@ -38,8 +36,6 @@
 }
 
 .container {
-	/* max-width: 360px; */
-	/* margin: 0 auto; */
 	display: flex;
   border: 1px solid #ccc;
   min-width: 720px;
@@ -58,7 +54,6 @@
 height: 99%;
 width: 262px;
 background-color: aqua;
-/* margin: 5px; */
 flex: 1;
 
 }
@@ -91,12 +86,7 @@ flex: 1;
 
 
 .item {
-	/* O flex: 1; é necessário para que cada item se expanda ocupando o tamanho máximo do container. */
-	/* flex: 1; */
 	margin: 15px;
-	/* background: tomato; */
-	/* text-align: center;
-  font-size: 1.5em; */
   border-radius: 5px;
 }
 
@@ -104,9 +94,7 @@ flex: 1;
   
   .mainContainer{
     width: auto;
-    /* margin: 0 auto; */
     display: flex;
-    /* border: 1px solid #ccc; */
     min-height: 600px;
     margin-top: 15px;
     margin-left: 120px;

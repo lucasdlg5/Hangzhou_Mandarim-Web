@@ -4,10 +4,10 @@ class Home extends Component {
     render(){
         return(
 
-        <section class="mainContainer">
+        <section className="mainContainer">
 
             <section >
-                <div class="item porfolioLeft">
+                <div className="item porfolioLeft">
                 
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lobortis risus orci, at hendrerit felis rutrum sed. Praesent at pharetra quam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum ultrices quam sed dignissim cursus. Mauris euismod, orci in faucibus pulvinar, metus risus pellentesque ex, sit amet rutrum metus magna vehicula purus. Duis imperdiet molestie condimentum. Sed tempor diam ut nulla dictum lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur a magna id molestie. Praesent sed ipsum nec nulla pellentesque venenatis. Curabitur elementum est metus, sed scelerisque purus lobortis sed. In augue urna, ultrices eget tincidunt in, fermentum quis est.
 
@@ -22,11 +22,11 @@ Nullam neque erat, sagittis sed pulvinar ac, congue a nulla. Nunc blandit pulvin
                 </div>
             </section>
 
-            <section class="column">
-                <div class="item menuHeader">TesteDoItem1</div>
-                <div class="item content">TesteDoItem2</div>
-                <div class="item skills">TesteDoItem3</div>
-                <div class="item rodape">TesteDoItem4</div>
+            <section className="column">
+                <div className="item menuHeader">TesteDoItem1</div>
+                <div className="item content">TesteDoItem2</div>
+                <div className="item skills">TesteDoItem3</div>
+                <div className="item rodape">TesteDoItem4</div>
             </section>
             
         </section>
