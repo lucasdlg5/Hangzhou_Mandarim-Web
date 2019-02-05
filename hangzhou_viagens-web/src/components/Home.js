@@ -22,8 +22,17 @@ Aliquam erat volutpat. Mauris consectetur rutrum risus, a fermentum turpis porta
                 </div>
             </section>
 
-            <section className="column" id="column">
-                <div className="item menuHeader shadow" id="menuHeader"></div>
+            <section className="columnWidth" id="column">
+                <div className="item menuHeader shadow" id="menuHeader">
+                    <section className="flex stretch alinhamento-central">
+                        <div className="itemMenuHeader homeMenuHeader" id="homeItem">HomeIconYellow</div>
+                        <div className="itemMenuHeader" id="ResumeItem">Resume</div>
+                        <div className="itemMenuHeader" id="PortfolioItem">Portfolio</div>
+                        <div className="itemMenuHeader" id="BlogItem">Blog</div>
+                        <div className="itemMenuHeader" id="ContactItem">Contact</div>
+                    </section>
+
+                </div>
                 <div className="item content shadow" id="content"></div>
                 <div className="item skills shadow" id="skills"></div>
                 <div className="item rodape shadow" id="rodape"></div>

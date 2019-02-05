@@ -58,10 +58,40 @@
 	flex-wrap: wrap;
 }
 
-.column{
+.columnWidth{
   flex-direction: column;
   width: 850px;
 }
+
+.column{
+  flex-direction: column;
+}
+
+.row{
+  flex-direction: row;
+}
+
+.flex{
+  display: flex;
+}
+
+.flex-start{
+  justify-content: flex-start;
+}
+
+.stretch {
+	align-content: stretch;
+} 
+
+.wrap{
+  flex-wrap: wrap;
+}
+
+.alinhamento-central {
+	flex: 0;
+	padding: 10px;
+}
+
 
 .porfolioLeft{
 height: 99%;
@@ -77,6 +107,26 @@ flex: 1;
   margin-top: 20px !important;
   margin-bottom: 30px !important;
   
+}
+
+.itemMenuHeader{
+  background-color: orangered;
+  border: 0.5px;
+  border-color: black;
+  border-style: solid;  
+  flex-direction: row ;
+  flex: 1;
+}
+
+
+
+
+
+
+
+
+.homeMenuHeader{
+  background-color: #ffb100 !important;
 }
 
 .content{
@@ -133,7 +183,7 @@ flex: 1;
 }
 
 
-@media only screen and (max-width: 1300px){
+@media only screen and (max-width: 1400px){
 
   .mainContainer{
     width: auto;
